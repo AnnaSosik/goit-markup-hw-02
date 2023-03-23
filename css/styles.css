@@ -17,12 +17,8 @@ body {
 }
 /* HEADER */
 .header {
-    width: 1600px;
-    height: 89px;
-    left: 1px;
-    top: 0px;
-    color: var(--brand-background-white);
-    position: absolute;
+    border-bottom: 1px solid #ECECEC;
+    min-height: 80px;
 }
 
 /* Logo */
@@ -41,29 +37,29 @@ body {
 }
 /* Navigation */
 
-.menu-list {
+.nav-link {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
     color: var(--brand-color-black);
 }
-.menu-link:is(:hover, :focus, :active) {
+.nav-link:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
 
 /* Contact */
 
-.contact-list {
-    text-decoration: none;
+.contact-link {
     font-size: 14px;
     line-height: 1.1;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--brand-color-grey);
+    text-decoration: none;
 }
 
-.contact-list a:is(:hover, :focus, :active) {
+.contact-link a:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
 
@@ -93,11 +89,12 @@ body {
 
 .top-title {
     color: var(--brand-color-white);
-    text-transform: uppercase;
-    font-size: 44px;
     font-weight: 900;
+    font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .top-button {
@@ -108,14 +105,16 @@ body {
     width: 200px;
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .top-button:is(:hover, :focus, :active) {
-    background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
+    background-color: var(--brand-color-white);
 }
 
 /* SECTION CONTENT LIST*/
+
 
 .content-title {
     font-weight: 700;
@@ -139,14 +138,18 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+
 }
+.photo-list-primary {
+    text-align: center;
+}
+
 /* SECTION TEAM */
 
-.bottom-background {
-    text-align: center;
+.section-team {
     background-color: #f5f4fa;
+    text-align: center;
 }
-
 .team-card {
     background-color: var(--brand-color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -191,4 +194,7 @@ body {
 
 .footer .address-link:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
+}
+.footer .address-item span {
+    text-decoration: underline;
 }
