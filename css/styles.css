@@ -1,4 +1,5 @@
 /* MAIN COLORS-COMMON*/
+
 :root {
     /* Text colors */
     --brand-color-black: #212121;
@@ -11,11 +12,14 @@
     --brand-background-white: var(--brand-color-white);
 }
 
+
 /* BODY-COMMON */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-black);
 }
+
 
 /* HEADER-COMMON */
 .header {
@@ -61,6 +65,7 @@ body {
 .contact-link a:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
+
 
 /*INDEX.HTML*/
 
@@ -160,6 +165,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+
 /* PORTFOLIO.HTML*/
 
 .filter-button {
@@ -199,8 +205,8 @@ body {
     border: 1px solid #eeeeee;
 }
 
-/* FOOTER-COMMON*/
 
+/* FOOTER-COMMON*/
 
 .footer {
     background-color: var(--brand-background-dark);
@@ -215,7 +221,6 @@ body {
     text-decoration: none;
     color: var(--brand-color-white);
 }
-
 
 .footer-address {
     color: var(--brand-color-white);
