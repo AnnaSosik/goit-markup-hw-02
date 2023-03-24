@@ -17,8 +17,7 @@ body {
 }
 /* HEADER */
 .header {
-    border-bottom: 1px solid #ECECEC;
-    min-height: 80px;
+    color: var(--brand-background-white);
 }
 
 /* Logo */
@@ -82,7 +81,6 @@ body {
 /* SECTION MAIN */
 
 .top-background {
-    height: 600px;
     background-color: var(--brand-background-dark);
     text-align: center;
 }
@@ -115,7 +113,6 @@ body {
 
 /* SECTION CONTENT LIST*/
 
-
 .content-title {
     font-weight: 700;
     font-size: 14px;
@@ -138,7 +135,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-
 }
 .photo-list-primary {
     text-align: center;
@@ -173,7 +169,6 @@ body {
 
 .footer {
     background-color: var(--brand-background-dark);
-    min-height: 252px;
 }
 
 .footer-address {
