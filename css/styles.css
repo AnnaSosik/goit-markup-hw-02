@@ -7,7 +7,7 @@
     --brand-color-white: #fff;
     --brand-color-blue: #2196f3;
     /* Background colors */
-    --brand-background-light: #e5e5e5;
+    --brand-background-light: #f5f4fa;
     --brand-background-dark: #2f303a;
     --brand-background-white: var(--brand-color-white);
 }
@@ -139,7 +139,7 @@ body {
 
 /* Section team */
 .team-background {
-    background-color: #f5f4fa;
+    background-color: var(--brand-background-light);
     text-align: center;
 }
 
@@ -228,4 +228,3 @@ body {
 .footer .address-link:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
-
