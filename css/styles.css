@@ -219,12 +219,12 @@ body {
     letter-spacing: 0.03em;
 }
 
-.address-link {
+.footer .address-link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
 }
 
-.address-link:is(:hover, :focus, :active) {
+.footer .address-link:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
