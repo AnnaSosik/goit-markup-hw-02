@@ -165,7 +165,7 @@ body {
 /* PORTFOLIO.HTML*/
 
 .filter-button {
-    background-color: #f5f4fa;
+    background-color: var(--brand-background-light);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
