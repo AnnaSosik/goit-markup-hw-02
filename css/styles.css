@@ -10,6 +10,7 @@
     --brand-background-light: #f5f4fa;
     --brand-background-dark: #2f303a;
     --brand-background-white: var(--brand-color-white);
+    --photo-backround-white: #eeeeee;
 }
 
 /* BODY-COMMON */
@@ -198,7 +199,7 @@ body {
 }
 
 .photo-border {
-    border: 1px solid #eeeeee;
+    border: var(--photo-backround-white);
 }
 
 /* FOOTER-COMMON*/
