@@ -1,3 +1,70 @@
+/* TAG SELECTORS STYLES RESET */
+p,
+ul,
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+ul {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* GENERAL SETTINGS*/
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header .container {
+display: inline-flex;
+align-items: center;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+/*GRID-PORTFOLIO*/
+
+:root {
+    --gap: 30px;
+    --element-in-row: 3;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    justify-items: center;
+    align-items: center;
+
+} 
+
+.grid-item {
+    flex-basis: calc(100%- (var(--element-in-row)-1 * var(--gap))) /
+        var(--element-in-row);
+}
+
+
+
 /* MAIN COLORS-COMMON*/
 
 :root {
@@ -24,6 +91,16 @@ body {
 .header {
     color: var(--brand-background-white);
     border-bottom: 1px solid #ececec;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    padding: 10px;
+}
+
+.site-nav {
+    margin-left: 93px;
 }
 
 .logo {
@@ -34,6 +111,10 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #000;
+}
+
+.site-nav .box li{
+    margin:0px 46px
 }
 
 .logo-color {
