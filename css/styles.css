@@ -4,7 +4,8 @@ ul,
 h1,
 h2,
 h3,
-ul {
+ul,
+figure {
     margin: 0;
     padding: 0;
     border: 0;
@@ -25,11 +26,9 @@ ul {
 }
 
 .header .container {
-display: inline-flex;
-align-items: center;
+    display: inline-flex;
+    align-items: center;
 }
-
-
 
 .box {
     display: flex;
@@ -55,15 +54,12 @@ align-items: center;
     gap: var(--gap);
     justify-items: center;
     align-items: center;
-
-} 
+}
 
 .grid-item {
     flex-basis: calc(100%- (var(--element-in-row)-1 * var(--gap))) /
         var(--element-in-row);
 }
-
-
 
 /* MAIN COLORS-COMMON*/
 
@@ -113,8 +109,8 @@ body {
     color: #000;
 }
 
-.site-nav .box li{
-    margin:0px 46px
+.site-nav .box li {
+    margin: 0px 46px;
 }
 
 .logo-color {
