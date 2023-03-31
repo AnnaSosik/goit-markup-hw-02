@@ -25,15 +25,24 @@ ul {
     padding: 0 15px;
 }
 
-.header .container {
-    display: inline-flex;
-    align-items: center;
-}
-
 .box {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.main-nav {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 93px;
+    margin-right: 371px;
+}
+
+.main-nav li {
+    display: flex;
+    margin: 0px 46px;
+
+
 }
 
 .section {
@@ -87,16 +96,10 @@ body {
 .header {
     color: var(--brand-background-white);
     border-bottom: 1px solid #ececec;
-    align-items: center;
 }
 
-.header ul {
+.header .container {
     display: flex;
-    padding: 10px;
-}
-
-.site-nav {
-    margin-left: 93px;
 }
 
 .logo {
@@ -107,10 +110,6 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #000;
-}
-
-.site-nav .box li {
-    margin: 0px 46px;
 }
 
 .logo-color {
